@@ -1,0 +1,57 @@
+@import '/style/componets/reglas.css';
+
+.formacion_img{
+    width: 200px;
+    height: 100px;
+}
+
+.formacion{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    gap: 2em;
+    color: var(--colorFuente);
+    text-align: justify;
+}
+
+.formacion_div{
+    width: 30%;
+    height: 33em;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+
+}
+
+.formacion_imgC{
+    width: 100%;
+    height: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    background-color: var(--colorBlanco);
+}
+
+.formacionLi{
+    padding: .3em .3em;
+    list-style: outside;
+}
+
+.formacion_title{
+    padding: .5em .5em;
+    text-align: left;
+}
+
+.formacionP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--colorNegroS);
+}
+
+.formacion_title1{
+    margin-top: 3em;
+}

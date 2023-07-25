@@ -1,0 +1,95 @@
+@import "componets/reglas.css";
+
+.contacto {
+  width: 100%;
+  background-color: var(--colorNegroS);
+  display: flex;
+}
+
+.contacto1 {
+  display: flex;
+  box-sizing: border-box;
+  padding: 3em 0em;
+}
+
+.contacto_title{
+    padding: 1em 0em;
+}
+
+.contacto_divIMG {
+  margin-right: 3em;
+}
+
+.contacto_imgen {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.contacto_formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto_btn {
+  width: 10em;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+.mensaje{
+    width: 40em;
+    height: 10em;
+    position: relative;
+    margin-top: 2em;
+    border:  none;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+.contacto_input {
+  width: 40em;
+  height: 2em;
+  position: relative;
+  margin-top: 2em;
+  outline: none;
+  border:  none;
+  border-radius: 5px;
+}
+
+.input-label{
+    position: absolute;
+    margin-top: 2.1em;
+    margin-left: .5em;
+    transition: 500ms ease-in;
+    
+}
+
+.input-message-error{
+    color: brown;
+    display: none;
+}
+
+.contacto_input:focus + .input-label,
+.contacto_input:not(:placeholder-shown) + .input-label{
+    transform: translateY(-1.6em) scale(.8);
+    transform-origin: top left;
+    color: springgreen;
+}
+
+.mensaje:focus + .input-label,
+.mensaje:not(:placeholder-shown) + .input-label{
+    transform: translateY(-1.6em) scale(.8);
+    transform-origin: top left;
+    color: springgreen;
+}
+
+.contacto_input:focus{
+    border-bottom: 1px solid springgreen;
+}
+
+.mensaje:focus{
+    border-bottom: 1px solid springgreen;
+}
+

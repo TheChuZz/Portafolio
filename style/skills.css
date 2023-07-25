@@ -1,0 +1,42 @@
+@import 'componets/reglas.css';
+
+
+.skills_Title{
+    color: var(--colorFuente);
+    font-size: xx-large;
+    font-family: var(--fuente);
+    text-align: center;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    gap: 24px;
+}
+
+
+.skills_divs{
+    width: 10em;
+    height: 10em;
+    background-color: var(--colorNegroS);
+    box-sizing: border-box;
+    border: solid rgb(255, 255, 255) 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 1em 1em;
+    margin-bottom: 4em;
+}
+
+.skills_Icont{
+    width: 50px;
+    height: 50px;
+    padding: .1em .1em;
+}
+
+.skill_title2{
+    color: var(--colorFuente);
+    font-size: x-large;
+}
