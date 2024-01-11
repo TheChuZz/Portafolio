@@ -2,21 +2,20 @@
 
 .section{
     width: 100%;
+    margin-bottom: 5em;
 }
 
 .experencia{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 5em;
-    gap: 5em;
-    margin-bottom: 5em;
+    align-items: center;   
+    
 }
 
 .experencia_div1{
     display: flex;
-    gap: 5em;
+    gap: 2em;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -26,13 +25,14 @@
     flex-direction: row-reverse;
     justify-content: space-evenly;
     align-items: center;
-    gap: 5em;
+    gap: 2em;
     box-sizing: border-box;
 
 }
 
 .experencia_img{
     width: 650px;
+    filter: drop-shadow(0 0 3px white);
 }
 
 
@@ -52,10 +52,24 @@
 .experencia_informacion{
     flex: 1;
     box-sizing: border-box;
+    padding: 2em 1em 1em 2em;
+    background-color: #444f5a;
+    border-radius: 15px;
+    border-width: 1px 4px 4px 1px;
+    border-style: solid;
+    border-color: white;
 }
 
-
-.expencia_descripcion{
-    padding: 1em 0em;
+.experencia_title{
+    margin-bottom: 1.5em;
 }
+
+.projects{
+    margin: 2em;
+    padding: 0 2em 2em 2em;
+    background-color: #000000;
+    border-radius: 100px 15px 100px 15px;
+    border: solid 3px white;
+}
+
 

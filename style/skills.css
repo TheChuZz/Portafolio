@@ -9,13 +9,13 @@
 }
 
 .skills{
+
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 2em;
     gap: 24px;
 }
-
 
 .skills_divs{
     width: 10em;
@@ -28,6 +28,7 @@
     justify-content: end;
     padding: 1em 1em;
     margin-bottom: 4em;
+    border-radius: 10px;
 }
 
 .skills_Icont{

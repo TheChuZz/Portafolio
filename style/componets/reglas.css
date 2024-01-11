@@ -5,8 +5,22 @@
     --colorAzul: #00ADB5;
     --colorBlanco: #3F72AF;
     --colorFuente: #F9F7F7;
+}
 
-
+*{
+    ::-webkit-scrollbar{ /* Ancho del scrollbar */
+        width: 15px;
+        border-radius: 5px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: #3498db; /* Color del thumb */
+        border-radius: 5px;
+        height: 5px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background-color: var(--colorNegroS); /* Color del track */
+    }
 }
 
 body{
@@ -14,13 +28,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    background-color: var(--colorNegro);
 }
 
 .space{
@@ -29,20 +37,52 @@ main{
 }
 
 .titulos {
+    padding-top: 2em;
     font-size: 2em;
     font-weight: 600;
     color: var(--colorFuente);
     font-family: var(--fuente);
     text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+
+.subTitle {
+    padding-top: 1em;
+    font-size: 2em;
+    font-weight: 400;
+    color: var(--colorFuente);
+    font-family: var(--fuente);
+    text-shadow: 1px 1px 1px black;
+}
+
+.subTitleBlack {
+    padding-top: 1em;
+    font-size: 2em;
+    font-weight: 400;
+    color:#222831;
+    font-family: var(--fuente);
+    text-shadow: 1px 1px 2px #444;
+
 }
 
 .parrafos{
-    font-size: 1em;
-    font-weight: 200;
+    font-size: 1.3em;
+    line-height: 1.5;
     color: var(--colorFuente);
     font-family: var(--fuente);
-    line-height: 20px;
     text-shadow: 1px 1px 1px black;
+    margin: .5em 0em;
+}
+
+.parrafosNegros{
+    font-size: 1.3em;
+    line-height: 1.5;
+    font-family: var(--fuente);
+    color: #222831;
+    text-shadow: 1px 1px 2px #333;
+    margin: 1em 0em;
+    text-align: justify;
 }
 
 .anclaBtnAzul {

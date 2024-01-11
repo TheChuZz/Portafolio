@@ -1,0 +1,36 @@
+@import "/style/componets/reglas.css";
+
+.job {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--colorNegroS);
+
+  .job_info_company {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3em;
+
+    .job_info {
+      width: 40%;
+      background-color: #444f5a;
+      border-radius: 100px 15px 100px 15px;
+      padding: 2em 1em 1em 3em;
+      border-width: 1px 4px 4px 1px;
+      border-style: solid;
+      border-color: white;
+    }
+
+    .job_image {
+      width: 40%;
+
+      img {
+        width: 100%;
+        filter: drop-shadow(0 0 2px white);
+      }
+    }
+  }
+}

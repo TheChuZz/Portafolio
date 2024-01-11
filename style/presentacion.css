@@ -1,17 +1,18 @@
 @import "/style/componets/reglas.css";
 
 .presentacion {
-  margin-top: 3em;
+  height: 100vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   color: var(--colorFuente);
   box-sizing: border-box;
 }
 
 .presentacion_info {
-  width: 70%;
-  padding: 5em 1em;
+  width: 60%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   text-align: justify;
   gap: 24px;
@@ -26,15 +27,18 @@
 }
 
 .presentacion_info1 {
-  padding: 1em 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .presentacion_imagen {
-  width: 368px;
-  height: 368px;
+  width: 348px;
+  height: 348px;
   flex-shrink: 0;
   border-radius: 50%;
   filter: drop-shadow(0px 0px 5px var(--colorFuente));
+  z-index: -1;
 }
 
 .presentacion_title {
@@ -46,7 +50,7 @@
 .presentacion_ancla {
   text-decoration: none;
   color: var(--colorFuente);
-  font-size: var(--parrafos);
+  font-size: 1.4em;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
