@@ -22,7 +22,7 @@
       <link rel="stylesheet" href="style/jobs.css">
    </head>
    <body>
-      <header>
+      <header id="header" class="header-hidden ">
          <div class="nav">
             <div class="nav_content">
                <img
@@ -35,32 +35,29 @@
             <div class="nav_content">
                <ul class="nav_contenido">
                   <li class="nav_contenido_lista">
-                     <a href="#sobreMi" class="nav_ancla">Sobre mi</a>
+                     <a id="anclaSobreMi" href="#section1" class="nav_ancla">Sobre mi</a>
                   </li>
                   <li class="nav_contenido_lista">
-                     <a href="#skills" class="nav_ancla">Skills</a>
+                     <a id="anclaSkills" href="#section2" class="nav_ancla">Skills y Hobies</a>
                   </li>
                   <li class="nav_contenido_lista">
-                     <a href="#hobies" class="nav_ancla">Hobbies</a>
+                     <a id="anclaExperencia" href="#section3" class="nav_ancla">Experiencia</a>
                   </li>
                   <li class="nav_contenido_lista">
-                     <a href="#formacion" class="nav_ancla">Formacion</a>
+                     <a id="anclaProyectos" href="#section4" class="nav_ancla">Proyectos</a>
                   </li>
                   <li class="nav_contenido_lista">
-                     <a href="#proyectos" class="nav_ancla">Proyectos</a>
-                  </li>
-                  <li class="nav_contenido_lista">
-                     arellanogarciarubenesteban@gmail.com
-                  </li>
+                    <a id="anclaContacto" href="#section5" class="nav_ancla">Contacto</a>
+                 </li>
                </ul>
             </div>
          </div>
       </header>
       <main>
-         <section class="space">
+         <section class="space" id="start">
             <div class="presentacion">
-               <div class="presentacion_info">
-                  <h2 class="titulos">
+               <div class="presentacion_info" id="presentation">
+                  <h2 class="title-presentation">
                      Creando Experiencias Digitales de Excelencia
                   </h2>
                   <p>
@@ -69,10 +66,6 @@
                      Actualmente, me encuentro enfocándome en ampliar mis conocimientos
                      y habilidades en el mundo del desarrollo web. <br />
                      <br />
-                     Además, tuve el privilegio de participar activamente en el
-                     proyecto Oracle ONE en Alura Latam, lo que me brinda una valiosa
-                     experiencia práctica y la oportunidad de trabajar en proyectos
-                     emocionantes.
                   </p>
                   <div class="presentacion_enlaces">
                      <a
@@ -104,6 +97,7 @@
                </div>
                <div class="presentacion_info1">
                   <img
+                     id="photoPresentation"
                      src="img/oters/mia.jpg"
                      alt="foto de perfil mia"
                      class="presentacion_imagen"
@@ -111,34 +105,36 @@
                </div>
             </div>
          </section>
-         <section class="sobreMiAndFormacion">
+         <a href="#start">
+             <img id="return-top" src="img/icon/flecha-arriba.png" alt="flecha hacia arriba">
+         </a>
+         <section class="sobreMiAndFormacion" id="section1">
             <article class="space">
                 <div><br></div>
                <div class="about_me">
-                  <h2 id="sobreMi" class="formacion_title1">Sobre mi</h2>
+                  <h2 class="formacion_title1">Sobre mi</h2>
                   <p class="parrafos">
-                     <br />
+                   
                      Soy un entusiasta ingeniero de sistemas computacionales con una
                      pasión por el desarrollo web y la creación de soluciones digitales
                      innovadoras. Mi enfoque actual se centra en el desarrollo web.
-                     <br />
-                     <br />
-                     A lo largo de mi trayectoria, he adquirido habilidades sólidas en
-                     HTML, CSS, JavaScript y React, que me han permitido construir sitios
-                     web con un diseño atractivo y una funcionalidad fluida. Siempre me
-                     emociona estar al tanto de las últimas tendencias y avances en el
-                     desarrollo web para incorporar tecnologías y enfoques innovadores en
-                     mis proyectos.
-                     <br />
-                     <br />
-                     Como profesional, me considero una persona proactiva, creativa y en
-                     constante aprendizaje. Estoy siempre dispuesto a enfrentar nuevos
-                     desafíos y asumir responsabilidades para seguir creciendo en el
-                     ámbito del desarrollo web y la ingeniería de software. <br />
-                     <br />
+                     <p class="parrafos"> 
+                        A lo largo de mi trayectoria, he adquirido habilidades sólidas en
+                        HTML, CSS, JavaScript y React, que me han permitido construir sitios
+                        web con un diseño atractivo y una funcionalidad fluida. Siempre me
+                        emociona estar al tanto de las últimas tendencias y avances en el
+                        desarrollo web para incorporar tecnologías y enfoques innovadores en
+                        mis proyectos.
+                     </p>
+                     <p class="parrafos">
+                        Como profesional, me considero una persona proactiva, creativa y en
+                        constante aprendizaje. Estoy siempre dispuesto a enfrentar nuevos
+                        desafíos y asumir responsabilidades para seguir creciendo en el
+                        ámbito del desarrollo web y la ingeniería de software. 
+                     </p>
                   </p>
                </div>
-               <h2 id="formacion" class="formacion_title1">Formacion Academica</h2>
+               <h2 class="formacion_title1" id="sobreMi">Formacion Academica</h2>
                <div class="formacion">
                <div class="formacion_div">
                   <div class="formacion_imgC">
@@ -182,9 +178,9 @@
                </div>
             </article>
          </section>
-         <section class="space">
+         <section class="space" id="section2">
             <article class="skillsAndHobbies">
-               <h2 id="skills" class="titulos">Skills</h2>
+               <h2 class="titulos">Skills</h2>
                <div class="skills">
                   <div class="skills_divs">
                      <img
@@ -231,7 +227,7 @@
                      <h3 class="skill_title2">MySql</h3>
                   </div>
                </div>
-               <h2 id="hobbies" class="title_hobbies">Hobbies</h2>
+               <h2 id="skills" class="title_hobbies">Hobbies</h2>
                <div class="skills">
                   <div class="skills_divs">
                      <img
@@ -284,7 +280,7 @@
                </div>
             </article>
          </section>
-         <section class="job">
+         <section class="job" id="section3">
             <div class="space">
                <h1 class="titulos">Experiencia</h1>
                <div class="job_info_company">
@@ -297,16 +293,16 @@
                   </div>
                   <div class="job_image">
                      <img src="img/empresas/logo-mtp.svg" alt="mtp logo">
-                     <h2 class="subTitle">MTP International</h2>
+                     <h2 id="experencia" class="subTitle">MTP International</h2>
                      <div class="parrafos">MTP ofrece servicios de Calidad Digital a organizaciones de los sectores Financieros, Retail, Telecomunicaciones, Administración Pública, entre otros.
                      </div>
                   </div>
                </div>
             </div>
          </section>
-         <section class="section" id="proyectos">
+         <section class="section" id="section4">
             <div class="space">
-               <div class="experencia">
+               <div class="experencia" id="proyectos">
                   <h1 class="titulos">Proyectos</h1>
                   <article class="projects">
                      <h2 class="titulos experencia_title">
@@ -499,12 +495,12 @@
             </div>
             </article>
          </section>
-         <section class="contacto" id="contacto">
+         <section class="contacto" id="section5">
             <div class="space">
                <div class="contacto1">
                   <div class="contacto_divIMG">
                      <img
-                        src="img/oters/contacto.jpg"
+                        src="img/oters/contacto .jpg"
                         alt="Contacto"
                         class="contacto_imgen"
                         />
@@ -562,7 +558,7 @@
                               type=""
                               placeholder=" "
                               ></textarea>
-                           <label class="input-label" for="state">Mensaje</label>
+                           <label id="contacto" class="input-label" for="state">Mensaje</label>
                            <span class="input-message-error parrafos"
                               >Este campo no es valido</span
                               >
@@ -602,5 +598,7 @@
             </div>
          </div>
       </footer>
+      <script type="module" src="js/header.js"></script>
+      <script type="module" src="js/presentation.js"></script>
    </body>
 </html>
